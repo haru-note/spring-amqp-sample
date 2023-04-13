@@ -1,0 +1,6 @@
+dependencies {
+    api 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.5'
+    compileOnly 'org.projectlombok:lombok'
+    runtimeOnly 'com.mysql:mysql-connector-j'
+}

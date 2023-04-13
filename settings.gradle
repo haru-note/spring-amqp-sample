@@ -1,0 +1,5 @@
+rootProject.name = 'spring-amqp-sample'
+include 'rabbitmq-sample'
+include 'common-core'
+include 'api-sample'
+
