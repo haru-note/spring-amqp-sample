@@ -1,23 +1,29 @@
 plugins {
-    id 'java'
-    id 'org.springframework.boot' version '3.0.5'
-    id 'io.spring.dependency-management' version '1.1.0'
+    id 'java' // java 기본 설정
+    id 'org.springframework.boot' version '3.0.5' // spring boot 테스크 설정
+    id 'io.spring.dependency-management' version '1.1.0' // spring 의존성 관리
 }
 
+// 그룹 정보
 group = 'net.harunote'
+
+// 프로젝트 버전
 version = '0.0.1-SNAPSHOT'
+
+// 자바 컴파일 버전
 sourceCompatibility = '17'
 
+// 중앙저장소
 repositories {
     mavenCentral()
 }
 
 
-
+// 하위 프로젝트에 공통적으로 적용될 설정을 지정
 subprojects {
-    group = 'com.example'
+    group = 'net.harunote'
     version = '0.0.1-SNAPSHOT'
-    sourceCompatibility = '11'
+    sourceCompatibility = '17'
 
     apply plugin: 'java'
     apply plugin: 'java-library'
@@ -42,6 +48,7 @@ subprojects {
         testImplementation 'org.springframework.boot:spring-boot-starter-test'
     }
 
+    // JUnit 5 테스트
     test {
         useJUnitPlatform()
     }
