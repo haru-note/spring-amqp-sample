@@ -4,8 +4,11 @@
 - Spring-AMQP with RabbitMQ
 
 ### 정보
-https://github.com/haru-note/spring-amqp-sample.git
+#### Origin Rerepository https://github.com/haru-note/spring-amqp-sample.git
 - amqp/step1 Branches : Simple Message Sender
-- amqp/stem2 Branches : Publisher / Subscriber Example 
-
-Since 2017 VillainsCode 
+- amqp/stem2 Branches : Publisher / Subscriber Example
+ 
+#### this source was moved from the link below.
+- https://github.com/gliderwiki/spring-mvc-rabbitmq
+- https://github.com/gliderwiki/rabbitmq-samples 
+#### Since 2013~2023 VillainsCode
