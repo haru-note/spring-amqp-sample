@@ -11,4 +11,6 @@
 #### this source was moved from the link below.
 - https://github.com/gliderwiki/spring-mvc-rabbitmq
 - https://github.com/gliderwiki/rabbitmq-samples 
+- https://github.com/gliderwiki/springboot-rabbitmq
+
 #### Since 2013~2023 VillainsCode
