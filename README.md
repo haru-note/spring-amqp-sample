@@ -5,7 +5,7 @@
 
 ### 정보
 https://github.com/haru-note/spring-amqp-sample.git
-- amqp/step1 Branchs : Simple Message Sender
-- amqp/stem2 Branchs : Publisher / Subscriber Example 
+- amqp/step1 Branches : Simple Message Sender
+- amqp/stem2 Branches : Publisher / Subscriber Example 
 
 Since 2017 VillainsCode 
