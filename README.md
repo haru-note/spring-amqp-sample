@@ -6,7 +6,7 @@
 ### 정보
 #### Origin Rerepository https://github.com/haru-note/spring-amqp-sample.git
 - amqp/step1 Branches : Simple Message Sender
-- amqp/stem2 Branches : Publisher / Subscriber Example
+- amqp/step2 Branches : Publisher / Subscriber Example
  
 #### this source was moved from the link below.
 - https://github.com/gliderwiki/spring-mvc-rabbitmq
